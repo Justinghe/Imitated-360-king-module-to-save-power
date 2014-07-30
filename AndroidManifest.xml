@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.dewav.intexzone2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true">
+        <activity android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" android:label="@string/app_name" android:name="com.dewav.intexzone2.ChargingInfoActivity" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/ChargingInfoTitleTheme" android:label="@string/charging_info" android:name=".ChargingInfoActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <receiver android:name=".BootupBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".ChargingService" android:persistent="true" />
+    </application>
+</manifest>

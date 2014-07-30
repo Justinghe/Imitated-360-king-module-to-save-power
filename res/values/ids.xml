@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="MyGridView">false</item>
+    <item type="id" name="last_info">false</item>
+    <item type="id" name="power_percent_img">false</item>
+    <item type="id" name="power_percent_text">false</item>
+    <item type="id" name="curr_charging_info">false</item>
+    <item type="id" name="charging_log_details">false</item>
+    <item type="id" name="ItemImageView">false</item>
+    <item type="id" name="ItemTextView">false</item>
+    <item type="id" name="back_to_intex_zone">false</item>
+</resources>

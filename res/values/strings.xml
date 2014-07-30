@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntexZone</string>
+    <string name="intex_introduction_text">"Dear INTEX customer:
+    Congratulations on becoming a proud owner of INTEX product. You have now joined the fraternity of millions of satisfied INTEX customers spread across the globe."</string>
+    <string name="intex_num_web_text">"
+        Helpline No. 1860-108-5555 (India)
+        Toll Free No. +971-800-468-39823 (Dubai)
+        Intex : www.intextechnologies.com
+        Intex Mobile : www.intexmobile.in"</string>
+    <string name="intex_cloud">Intex Cloud</string>
+    <string name="intex_game_club">Intex Games Club</string>
+    <string name="intex_lifebox">Intex LifeBox</string>
+    <string name="intex_play">INTEX Play</string>
+    <string name="charging_info">Charging Info</string>
+    <string name="charging_back">Back</string>
+    <string name="charging_log">Charging Log Details :</string>
+</resources>
